@@ -13,8 +13,8 @@
 - [x] **P2** (bug) Broken placeholder link in tool-web skill — 2026-03-31
   Resolved: Removed the "Onesies Integration" section entirely — it was project-specific boilerplate with a placeholder URL, not appropriate for a shared skill
 
-- [ ] **P3** (chore) Add .gitignore
-  Repo has no .gitignore — should exclude `.DS_Store`, `.env`, `*.log`, etc.
+- [x] **P3** (chore) Add .gitignore — 2026-03-31
+  Resolved: Added `.gitignore` with standard exclusions (OS files, editor swap files, env files, logs)
 
 - [ ] **P3** (chore) Standardize frontmatter fields across skills
   `argument-hint`, `allowed-tools`, `user_invocable` used inconsistently — define which are required vs optional
