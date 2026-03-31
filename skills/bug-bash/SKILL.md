@@ -1,6 +1,7 @@
 ---
 name: bug-bash
 description: Work through a project's bug list autonomously, fixing bugs in priority order
+argument-hint: [P0-P1 | --max N | --dry-run]
 ---
 
 # Bug Bash

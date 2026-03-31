@@ -7,11 +7,13 @@
 
 ## Open
 
-- [ ] **P3** (chore) Standardize frontmatter fields across skills
-  `argument-hint`, `allowed-tools`, `user_invocable` used inconsistently — define which are required vs optional.
-  Skipped in bug bash — ambiguous requirements. Needs decision on: should `allowed-tools` be added to all skills or removed from sitrep? Should `argument-hint` be required when a skill accepts arguments? Is `user_invocable` a real field or leftover?
+(none)
 
 ## Done
+
+- [x] **P3** (chore) Standardize frontmatter fields across skills — 2026-03-31
+  Resolved: Added `argument-hint` to all skills that accept arguments (bug-bash, project-setup, readme, scorecard, tool-web). Removed redundant `user_invocable: true` from tool-web. Documented frontmatter convention in CLAUDE.md: `name` and `description` required, `argument-hint` when args accepted, `allowed-tools` optional and enforced.
+
 
 - [x] **P2** (bug) plugin.json has wrong repository URL — 2026-03-31
   Resolved: Changed `"repository"` from `joe/skills` to `joewalnes/skills` in `.claude-plugin/plugin.json`

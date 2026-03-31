@@ -41,6 +41,14 @@ After creating a new skill in `skills/<name>/SKILL.md`:
 2. Run `make install` to symlink it
 3. Commit both the skill and the README update together
 
+### Skill frontmatter
+
+Every SKILL.md must have `name` and `description`. Add `argument-hint` if the skill accepts arguments — it shows in autocomplete.
+
+`allowed-tools` is optional and **enforced** — it restricts which tools Claude can use without asking permission while the skill is active. Use it for read-only or limited-scope skills (e.g. sitrep). Omit it to use normal permission settings.
+
+Don't use `user_invocable: true` — it's the default. Only use `user_invocable: false` for background-knowledge skills that shouldn't appear in the `/` menu.
+
 ## Evolving preferences
 
 When the user expresses a coding preference, convention, or correction during a session, offer to encode it into this CLAUDE.md file so it persists across sessions. Examples: naming conventions, preferred libraries, architecture patterns, things to avoid.

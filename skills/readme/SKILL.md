@@ -1,6 +1,7 @@
 ---
 name: readme
 description: Generate or update project README documentation
+argument-hint: [section to focus on]
 ---
 
 Generate a high-quality project README.md.

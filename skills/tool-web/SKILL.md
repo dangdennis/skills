@@ -1,7 +1,7 @@
 ---
 name: tool-web
 description: Build a lightweight single-file web application with no external dependencies
-user_invocable: true
+argument-hint: <description of what to build>
 ---
 
 # Lightweight Web Tool

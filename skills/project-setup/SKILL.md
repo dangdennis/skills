@@ -1,6 +1,7 @@
 ---
 name: project-setup
 description: Walk through project setup improvements for efficient AI-assisted development
+argument-hint: [status]
 ---
 
 # Project Setup

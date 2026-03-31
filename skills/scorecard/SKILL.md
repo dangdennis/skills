@@ -1,6 +1,7 @@
 ---
 name: scorecard
 description: Evaluate code quality with letter grades across multiple dimensions
+argument-hint: [directory | --quick]
 ---
 
 # Codebase Scorecard
