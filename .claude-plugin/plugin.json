@@ -1,0 +1,10 @@
+{
+  "name": "skills",
+  "description": "Joe's collection of custom Claude Code skills",
+  "version": "0.1.0",
+  "author": {
+    "name": "Joe"
+  },
+  "repository": "https://github.com/joe/skills",
+  "license": "MIT"
+}
