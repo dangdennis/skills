@@ -40,8 +40,14 @@ make list       # Show available skills and install status
 
 | Skill | Description |
 |-------|-------------|
+| `bug` | Add a new bug to the project's tracker (alias for `/todo`) |
+| `bug-bash` | Autonomously work through a project's bug list, fixing bugs in priority order |
 | `hello-world` | A simple test greeting skill |
+| `readme` | Generate or update project README documentation |
+| `scorecard` | Comprehensive codebase quality audit with letter grades |
 | `sitrep` | Quick situation report — recap progress, uncommitted work, gaps, and next steps |
+| `todo` | Add a new bug or todo to the project's tracker |
+| `tool-web` | Build a lightweight single-file web application with no external dependencies |
 
 ## Development
 
