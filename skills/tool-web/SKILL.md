@@ -184,9 +184,23 @@ Test at 320px minimum viewport width. No horizontal scrolling at any size.
 
 ## JavaScript
 
+### Configuration
+
+Put user-configurable values (colors, sizes, defaults, thresholds) in a clear config object at the top of `<script>` with comments explaining each option:
+
+```js
+const CONFIG = {
+  maxItems: 50,           // Maximum items to display
+  refreshMs: 5000,        // Auto-refresh interval
+  defaultTheme: 'light',  // 'light' or 'dark'
+};
+```
+
+This makes it easy for users to customize behavior without digging through code.
+
 ### Helper Functions
 
-Include these at the top of `<script>`:
+Include these at the top of `<script>` (after config):
 
 ```js
 const $ = (sel, ctx = document) => ctx.querySelector(sel);
